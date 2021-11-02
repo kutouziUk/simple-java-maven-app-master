@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                sh 'mvn -B -DskipTests clean package -f ./simple-java-maven-app-master/pom.xml' 
+                sh 'mvn -B -DskipTests clean package -f ./simple-java-maven-app-master/pom.xml ' 
             }
         }
     }
